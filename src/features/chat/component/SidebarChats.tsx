@@ -35,12 +35,12 @@ const SidebarChats = () => {
   }
 
   return (
-    <aside className='h-full w-1/4 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 border-r border-slate-700 flex flex-col'>
+    <aside className='h-full w-1/4 bg-linear-to-b from-slate-900 via-slate-800 to-slate-900 border-r border-slate-700 flex flex-col'>
       {/* Header */}
       <div className='p-4 border-b border-slate-700'>
         <button
           onClick={handleNewChat}
-          className='w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white rounded-lg font-medium transition-all duration-200 hover:shadow-lg hover:shadow-blue-500/20'
+          className='w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-linear-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white rounded-lg font-medium transition-all duration-200 hover:shadow-lg hover:shadow-blue-500/20'
         >
           <Plus size={18} />
           New Chat

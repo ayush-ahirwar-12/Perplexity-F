@@ -60,7 +60,7 @@ const MainChat = () => {
   }
 
   return (
-    <div className='w-full h-[85%] bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 flex flex-col'>
+    <div className='w-full h-[85%] bg-linear-to-b from-slate-950 via-slate-900 to-slate-950 flex flex-col'>
       {/* Messages Container */}
       <div className='flex-1 overflow-y-auto scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-slate-900 px-6 py-8'>
         <div className='max-w-3xl mx-auto space-y-6'>
